@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wackycodes</string>
+
+
+    <string name="please_wait">Please wait..</string>
+
+    <string name="message_not_found">Message Not found!</string>
+    <string name="no_internet_connection">No Internet Connection!</string>
+    <string name="internet_connection_back">Internet Connection is back!</string>
+
+
+    <string name="permission_denied">Permission denied.!</string>
+
+
+</resources>

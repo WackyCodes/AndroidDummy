@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Wackycodes Design & Development - Copyright (c) 2022.
+  ~
+  ~  This file created by Shailendra Lodhi  on  02/03/22, 2:47 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ====================================================================
+  ~  File Name : activity_splash.xml
+  ~  Description :
+  ~  ================= Updates History  =================================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   2/3/2022   -   File Created
+  ~
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ActivitySplash">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_wackycodes_trans"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

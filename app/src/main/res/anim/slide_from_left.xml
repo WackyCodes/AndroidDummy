@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Wackycodes Design & Development - Copyright (c) 2022.
+  ~
+  ~  This file created by Shailendra Lodhi  on  02/03/22, 3:15 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ===========================================================
+  ~  File Name : slide_from_left.xml
+  ~  Description :
+  ~  ======================   Updates History    ========================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   2/3/2022   -   File Created
+  ~
+  -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="250" android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <translate
+        android:fromXDelta="-100%"
+        android:toXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="0%"/>
+</set>
