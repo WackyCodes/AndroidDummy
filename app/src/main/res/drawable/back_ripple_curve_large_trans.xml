@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  This file created by Shailendra Lodhi  on  08/03/22, 3:10 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ===========================================================
+  ~  File Name : back_ripple_curve_large_trans.xml
+  ~  Description :
+  ~  ======================   Updates History    ========================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   8/3/2022   -   File Created
+  ~
+  -->
+<ripple android:color="@color/colorSecondaryLight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/back_design_curve_large_1dp_trans" />
+
+    <item android:id="@android:id/mask"
+        android:drawable="@drawable/back_design_curve_large"/>
+
+</ripple>

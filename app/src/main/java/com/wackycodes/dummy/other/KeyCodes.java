@@ -18,4 +18,12 @@ public interface KeyCodes {
 
     String KEY_CODES = "CODES";
 
+    String KEY_CODE_FRAGMENT_TYPE = "FRAGMENT_TYPE";
+    String KEY_CODE_BUNDLE = "BUNDLE";
+
+    String KEY_CODE_MODULE = "MODULE";
+
+
+
+
 }

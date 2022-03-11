@@ -1,4 +1,4 @@
-package com.wackycodes.dummy.services;
+package com.wackycodes.dummy.utils;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -12,14 +12,14 @@ import android.util.Log;
 /*******************************************************************************
  * Wackycodes Design & Development - Copyright (c) 2022.
  *
- *  This file created by Shailendra Lodhi  on  02/03/22
+ *  This file created by Shailendra Lodhi  on  11/03/22, 4:51 PM
  *  Check : https://linktr.ee/wackycodes
- *  -------------------------------------------------------------------------------------------------
+ *  ===========================================================
  *  File Name : InternetService.java
- *  Description :  This class helps to check internet connection and update to you in the app.
- *  --------------------------  Updates History -----------------------------------------------------
- *  S.No. -|-  Updated By -|- Updated Date -|- Remarks --
- *  1.    -    Shailendra    -   2/3/2022   -   File Created
+ *  Description :
+ *  ======================   Updates History    ========================
+ *  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+ *  1.    -    Shailendra    -   11/3/2022   -   File Created
  *
  ******************************************************************************/
 

@@ -12,6 +12,7 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -19,9 +20,9 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.wackycodes.dummy.R;
+import com.wackycodes.dummy.listeners.ActivityListener;
 import com.wackycodes.dummy.listeners.OnPermissionListener;
-import com.wackycodes.dummy.listeners.RootListener;
-import com.wackycodes.dummy.services.InternetService;
+import com.wackycodes.dummy.utils.InternetService;
 import com.google.android.material.snackbar.Snackbar;
 
 /*******************************************************************************
@@ -40,7 +41,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class BaseActivity extends AppCompatActivity
         implements InternetService.ConnectivityReceiverListener,
-        RootListener, OnPermissionListener {
+        ActivityListener, OnPermissionListener {
     private static final int REQUEST_PERMISSION_STORAGE = 100;
     private static final int REQUEST_PERMISSION_LOCATION = 101;
     private final InternetService connectionListener = new InternetService();
@@ -116,6 +117,13 @@ public class BaseActivity extends AppCompatActivity
             getSupportActionBar().setDisplayHomeAsUpEnabled(isHomesUpEnabled);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void setPageTitle(@NonNull String title) {
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setTitle( title );
         }
     }
 

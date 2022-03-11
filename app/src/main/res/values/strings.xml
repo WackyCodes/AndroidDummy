@@ -10,6 +10,8 @@
 
 
     <string name="permission_denied">Permission denied.!</string>
+    <string name="required_field">Required Field!</string>
+    <string name="invalid_data">Invalid Data</string>
 
 
 </resources>

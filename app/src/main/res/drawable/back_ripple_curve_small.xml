@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  This file created by Shailendra Lodhi  on  07/03/22, 4:08 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ===========================================================
+  ~  File Name : back_ripple_curve_small.xml
+  ~  Description :
+  ~  ======================   Updates History    ========================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   7/3/2022   -   File Created
+  ~
+  -->
+
+<ripple android:color="@color/colorSecondaryLight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/back_design_curve_small_fill" />
+
+    <item android:id="@android:id/mask"
+        android:drawable="@drawable/back_design_curve_small_fill"/>
+
+</ripple>

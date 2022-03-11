@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  This file created by Shailendra Lodhi  on  08/03/22, 2:40 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ===========================================================
+  ~  File Name : back_design_progress.xml
+  ~  Description :
+  ~  ======================   Updates History    ========================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   8/3/2022   -   File Created
+  ~
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="8dp" />
+            <gradient
+                android:startColor="#CCDBFD"
+                android:centerColor="#CCDBFD"
+                android:centerY="0"
+                android:endColor="#FFF1E6"
+                android:angle="270"
+                />
+            <stroke android:width="0.5dp"
+                android:color="#3C8DBC"/>
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <gradient
+                    android:startColor="#3C8DBC"
+                    android:centerColor="#3C8DBC"
+                    android:centerY="0.75"
+                    android:endColor="#3C8DBC"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <gradient
+                    android:startColor="#3C8DBC"
+                    android:centerColor="#3C8DBC"
+                    android:centerY="0.75"
+                    android:endColor="#3C8DBC"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

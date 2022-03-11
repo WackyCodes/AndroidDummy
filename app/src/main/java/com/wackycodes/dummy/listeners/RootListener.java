@@ -12,6 +12,4 @@ public interface RootListener {
     void showDialog();
     void dismissDialog();
 
-    void setToolBar(Toolbar toolbar, @Nullable String title, boolean isHomesUpEnabled );
-
 }

@@ -16,6 +16,9 @@ package com.wackycodes.dummy.other;
 
 public interface Constants {
 
+    int FRAGMENT_TEST = 10;
+
+    int FRAGMENT_HOME = 101;
 
 
 }

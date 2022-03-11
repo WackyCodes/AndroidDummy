@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  This file created by Shailendra Lodhi  on  04/03/22, 12:21 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ===========================================================
+  ~  File Name : back_design_curve_large_1dp_trans.xml
+  ~  Description :
+  ~  ======================   Updates History    ========================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   4/3/2022   -   File Created
+  ~
+  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid
+        android:color="@color/colorTransparent"/>
+    <corners android:radius="@dimen/corner_large_24"/>
+    <stroke android:color="@color/colorOnSecondary"
+        android:width="@dimen/dimen_1dp"/>
+</shape>

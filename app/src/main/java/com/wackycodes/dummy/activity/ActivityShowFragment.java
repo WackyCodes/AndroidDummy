@@ -27,7 +27,6 @@ import com.wackycodes.dummy.listeners.FragmentListener;
 public class ActivityShowFragment extends BaseActivity implements FragmentListener {
     public static final int FRAGMENT_ABOUT_PROGRAM = 1;
 
-
     private ActivityShowFragmentBinding fragmentBinding;
 
     @Override

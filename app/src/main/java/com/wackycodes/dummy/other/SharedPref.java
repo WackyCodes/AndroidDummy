@@ -53,11 +53,43 @@ public class SharedPref {
     }
 
     //----------------------------------------------------------------------------------------------
+    //----------------------------------------------------------------------------------------------
+
+    public static void setUserData( Context context, Object student ){
+        if (editor == null){
+            editor = getEditor( context );
+        }
+//        editor.putString( KEY_CODE_USER_ID, student.getUserName() );
+//        editor.putString( KEY_CODE_NAME, student.getStudentName() );
+        editor.commit();
+    }
+
+    public static Object getUserData( Context context ){
+        if (preferences == null){
+            preferences = getPreferences( context );
+        }
+        Object student = new Object();
+//        student.setUserName( preferences.getString( KEY_CODE_USER_ID,null) );
+//        student.setStudentName( preferences.getString( KEY_CODE_NAME,null) );
+        return student;
+    }
 
     public static boolean isUserLogin( Context context ){
-        // TODO : Add Your code!
+//        String info = getPreferences( context ).getString( KEY_CODE_USER_ID, null );
+//        return !( info == null || info.isEmpty() );
         return false;
     }
+
+    public static void logout( Context context ){
+        if (editor == null){
+            editor = getEditor( context );
+        }
+//        editor.putString( KEY_CODE_USER_ID, null );
+        editor.clear();
+        editor.commit();
+    }
+
+    //----------------------------------------------------------------------------------------------
 
 
 }
