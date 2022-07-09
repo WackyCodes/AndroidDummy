@@ -1,5 +1,8 @@
 package com.wackycodes.dummy.utils;
 
+import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.text.format.Formatter;
 import android.util.Log;
 
@@ -41,6 +44,28 @@ public class DeviceInfo {
             Log.e("IP_ADDRESS", ex.toString());
         }
         return null;
+    }
+
+    public static String getAppVersion( Context context ){
+        String version = null;
+        try {
+            PackageInfo pInfo = context.getPackageManager().getPackageInfo( context.getPackageName(), 0);
+            version = pInfo.versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return version;
+    }
+
+    public static int getVersionCode( Context context ){
+        int versionCode = -1;
+        try {
+            PackageInfo pInfo = context.getPackageManager().getPackageInfo( context.getPackageName(), 0);
+            versionCode = pInfo.versionCode;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return versionCode;
     }
 
 }

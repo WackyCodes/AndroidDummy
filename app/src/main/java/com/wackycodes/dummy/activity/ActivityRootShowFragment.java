@@ -16,7 +16,7 @@ import com.wackycodes.dummy.listeners.FragmentListener;
  *  This file created by Shailendra Lodhi  on  02/03/22
  *  Check : https://linktr.ee/wackycodes
  *  -------------------------------------------------------------------------------------------------
- *  File Name : ActivityShowFragment.java
+ *  File Name : ActivityRootShowFragment.java
  *  Description :  This class helps to show different types of fragments in the project.
  *  --------------------------  Updates History -----------------------------------------------------
  *  S.No. -|-  Updated By -|- Updated Date -|- Remarks --
@@ -24,7 +24,7 @@ import com.wackycodes.dummy.listeners.FragmentListener;
  *
  ******************************************************************************/
 
-public class ActivityShowFragment extends BaseActivity implements FragmentListener {
+public class ActivityRootShowFragment extends ActivityRoot implements FragmentListener {
     public static final int FRAGMENT_ABOUT_PROGRAM = 1;
 
     private ActivityShowFragmentBinding fragmentBinding;

@@ -15,7 +15,7 @@ import com.wackycodes.dummy.databinding.ActivityAuthBinding;
  *  This file created by Shailendra Lodhi  on  02/03/22, 2:48 PM
  *  Check : https://linktr.ee/wackycodes
  *  -------------------------------------------------------------------------------------------------
- *  File Name : ActivityAuth.java
+ *  File Name : ActivityRootAuth.java
  *  Description :
  *  --------------------------  Updates History -----------------------------------------------------
  *  S.No. -|-  Updated By -|- Updated Date -|- Remarks --
@@ -23,7 +23,7 @@ import com.wackycodes.dummy.databinding.ActivityAuthBinding;
  *
  ******************************************************************************/
 
-public class ActivityAuth extends BaseActivity {
+public class ActivityRootAuth extends ActivityRoot {
 
     private ActivityAuthBinding activityAuthBinding;
 

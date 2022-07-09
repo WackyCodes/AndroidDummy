@@ -41,6 +41,7 @@
     <dimen name="size_20sp">20sp</dimen>
     <dimen name="size_22sp">22sp</dimen>
     <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_26sp">26sp</dimen>
     <dimen name="size_28sp">28sp</dimen>
 
     <!--    Margin : Default to Use  -->
@@ -111,6 +112,22 @@
     <dimen name="appbar_padding">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="appbar_padding_top">@dimen/dimen_8dp</dimen>
+
+    <!--    //Small screen size-->
+    <dimen name="title_size_small_main">@dimen/size_18sp</dimen>
+    <dimen name="title_size_small">@dimen/size_16sp</dimen>
+
+    <!--    //Large screen size-->
+    <dimen name="title_size_large_main">@dimen/size_26sp</dimen>
+    <dimen name="title_size_large">@dimen/size_24sp</dimen>
+    <dimen name="font_size_large_big_screen">@dimen/size_16sp</dimen>
+
+    <dimen name="font_size_very_small">12sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_normal">16sp</dimen>
+    <dimen name="font_size_heading">18sp</dimen>
+    <dimen name="font_size_large">20sp</dimen>
+    <dimen name="font_size_extra_large">24sp</dimen>
 
 
 

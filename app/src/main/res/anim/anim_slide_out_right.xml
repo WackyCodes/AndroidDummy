@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Wackycodes Design & Development - Copyright (c) 2022.
+  ~
+  ~  This file created by Shailendra Lodhi  on  09/07/22, 12:22 PM
+  ~  Check : https://linktr.ee/wackycodes
+  ~  ===========================================================
+  ~  File Name : anim_slide_out_right.xml
+  ~  Description :
+  ~  ======================   Updates History    ========================
+  ~  S.No. -|-  Updated By -|- Updated Date -|- Remarks
+  ~  1.    -    Shailendra    -   9/7/2022   -   File Created
+  ~
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <translate
+        android:duration="600"
+        android:fromXDelta="0%"
+        android:toXDelta="100%" >
+    </translate>
+</set>

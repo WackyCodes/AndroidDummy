@@ -21,4 +21,5 @@ import androidx.appcompat.widget.Toolbar;
 public interface ActivityListener extends RootListener {
     void setToolBar(Toolbar toolbar, @Nullable String title, boolean isHomesUpEnabled );
     void setPageTitle( @NonNull String title );
+    void setSubTitle( @NonNull String subTitle );
 }

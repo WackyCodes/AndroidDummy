@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--    Fixed Color Name -->
+    <!-- ~~~~~~~  Fixed Color Name ~~~~~~~ -->
     <color name="colorDark">#696969</color>
     <color name="colorGray">#808080</color>
     <color name="colorGrayLight">#D3D3D3</color>
@@ -16,35 +16,6 @@
     <color name="colorGold">#FFD700</color>
     <color name="colorMilky">#FDFFF5</color>
     <color name="colorTransparent">#00000000</color>
-
-    <!--   Wackycodes : Colors -->
-
-    <!--    Color Name Default  -->
-    <color name="colorPrimary">#324563</color>
-    <color name="colorPrimaryVariant">#324563</color>
-    <color name="colorPrimaryLight">#6A727F</color>
-    <color name="colorPrimaryFaded">#80516079</color>
-    <color name="colorOnPrimary">#FFFFFF</color>
-
-    <color name="colorSecondary">#DF3E1B</color>
-    <color name="colorSecondaryVariant">#DF3E1B</color>
-    <color name="colorSecondaryLight">#CA8F83</color>
-    <color name="colorSecondaryFaded">#80DA5B3F</color>
-    <color name="colorOnSecondary">#FFFFFF</color>
-
-    <color name="colorAccent">#CEF3C4</color>
-    <color name="colorAccentLight">#D7F5CF</color>
-    <color name="colorAccentBackground">@color/colorPrimary</color>
-    <color name="colorOnAccent">@color/colorPrimary</color>
-
-    <color name="colorError">#F44336</color>
-    <color name="colorSuccess">#4CAF50</color>
-    <color name="colorWarning">#FF9800</color>
-    <color name="colorAlert">#03A9F4</color>
-    <color name="colorHighLight">#008EFF</color>
-    <color name="colorDisable">#B9615C5C</color>
-    <color name="colorFaded">#A32F302C</color>
-
 
     <!--  Background Lights Color Name -->
     <color name="colorBackLightBlue">#CCDBFD</color>
@@ -64,7 +35,50 @@
     <color name="colorBackLavenderBlush">#F0E6EF</color>
     <color name="colorBackPinkLavender">#EFC3E6</color>
 
-    <!--    Components Colors -->
+    <!--   Wackycodes : Colors -->
+
+    <!-- ~~~~~~~ Theme : Color Name Default ~~~~~~~ -->
+    <color name="colorPrimary">#324563</color>
+    <color name="colorPrimaryVariant">#324563</color>
+    <color name="colorPrimaryLight">#6A727F</color>
+    <color name="colorPrimaryFaded">#80516079</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#DF3E1B</color>
+    <color name="colorSecondaryVariant">#DF3E1B</color>
+    <color name="colorSecondaryLight">#CA8F83</color>
+    <color name="colorSecondaryFaded">#80DA5B3F</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="colorAccent">#CEF3C4</color>
+    <color name="colorAccentLight">#D7F5CF</color>
+    <color name="colorAccentBackground">@color/colorPrimary</color>
+    <color name="colorOnAccent">@color/colorPrimary</color>
+
+    <!-- ~~~~~~~ Status/Action  Color ~~~~~~~ -->
+    <color name="colorError">#F44336</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FF9800</color>
+    <color name="colorAlert">#03A9F4</color>
+    <color name="colorHighLight">#008EFF</color>
+    <color name="colorDisable">#B9615C5C</color>
+    <color name="colorFaded">#A32F302C</color>
+
+
+    <!-- ~~~~~~~  Components Colors ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- ~~~~~~~ Text Color ~~~~~~~ -->
+    <color name="colorTextTitle">#00695C</color>
+    <color name="colorTextAccent">#fc902d</color>
+    <color name="colorTextNormal">#595959</color>
+    <color name="colorTextDark">#1B1C1B</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextPrimary">@color/colorPrimary</color>
+    <color name="colorTextSecondary">@color/colorSecondary</color>
+    <color name="colorTextOnPrimary">@color/colorOnPrimary</color>
+    <color name="colorTextOnSecondary">@color/colorOnSecondary</color>
+
+    <!-- ~~~~~~~ Buttons Color ~~~~~~~ -->
     <color name="colorButton">@color/colorPrimary</color>
     <color name="colorButtonOnPrimary">@color/colorOnPrimary</color>
     <color name="colorButtonOnSecondary">@color/colorOnSecondary</color>
@@ -74,11 +88,39 @@
     <color name="colorButtonPrimaryAction">@color/colorPrimary</color>
     <color name="colorButtonSecondaryAction">@color/colorSecondary</color>
 
+    <color name="colorButtonOne">#7986CB</color>
+    <color name="colorButtonTwo">#4DB6AC</color>
+    <color name="colorButtonThree">#FF8A65</color>
+    <color name="colorButtonFour">#0277BD</color>
+
+    <color name="colorTextButton">@color/colorButton</color>
+    <color name="colorTextButtonOne">@color/colorButtonOne</color>
+    <color name="colorTextButtonTwo">@color/colorButtonTwo</color>
+    <color name="colorTextButtonThree">@color/colorButtonThree</color>
+    <color name="colorTextButtonFour">@color/colorButtonFour</color>
+
+    <color name="colorTextOnButton">@color/colorOnPrimary</color>
+    <color name="colorTextOnButtonOne">@color/colorTextDark</color>
+    <color name="colorTextOnButtonTwo">@color/colorTextDark</color>
+    <color name="colorTextOnButtonThree">@color/colorTextDark</color>
+    <color name="colorTextOnButtonFour">@color/colorTextWhite</color>
+
+    <!-- ~~~~~~~ Icons Color ~~~~~~~ -->
     <color name="colorIconOnPrimary">@color/colorOnPrimary</color>
     <color name="colorIconOnSecondary">@color/colorOnSecondary</color>
     <color name="colorIconDisable">@color/colorDisable</color>
     <color name="colorBackgroundOnPrimary">@color/colorOnPrimary</color>
     <color name="colorBackgroundOnSecondary">@color/colorOnSecondary</color>
     <color name="colorBackgroundNormal">@color/colorWhite</color>
+
+    <color name="colorIconPrimary">@color/colorPrimary</color>
+    <color name="colorIconSecondary">@color/colorSecondary</color>
+    <color name="colorIconSuccess">@color/colorSuccess</color>
+
+    <color name="colorIcon">@color/colorTextNormal</color>
+    <color name="colorIconTitle">@color/colorTextTitle</color>
+
+
+
 
 </resources>

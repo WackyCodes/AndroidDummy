@@ -36,9 +36,9 @@ public class ActivitySplash extends AppCompatActivity {
             @Override
             public void run() {
                 if (SharedPref.isUserLogin( ActivitySplash.this)){
-                    startActivity( new Intent( ActivitySplash.this, ActivityMain.class ));
+                    startActivity( new Intent( ActivitySplash.this, ActivityRootMain.class ));
                 }else{
-                    startActivity( new Intent( ActivitySplash.this, ActivityAuth.class ));
+                    startActivity( new Intent( ActivitySplash.this, ActivityRootAuth.class ));
                 }
                 ActivitySplash.this.finish();
             }

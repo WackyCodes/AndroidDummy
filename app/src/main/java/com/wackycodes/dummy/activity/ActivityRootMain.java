@@ -11,7 +11,7 @@ import com.wackycodes.dummy.R;
  *  This file created by Shailendra Lodhi  on  02/03/22, 3:09 PM
  *  Check : https://linktr.ee/wackycodes
  *  ===========================================================
- *  File Name : ActivityMain.java
+ *  File Name : ActivityRootMain.java
  *  Description :
  *  ======================   Updates History    ========================
  *  S.No. -|-  Updated By -|- Updated Date -|- Remarks --
@@ -19,7 +19,7 @@ import com.wackycodes.dummy.R;
  *
  ******************************************************************************/
 
-public class ActivityMain extends BaseActivity {
+public class ActivityRootMain extends ActivityRoot {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

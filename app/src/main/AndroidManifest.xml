@@ -24,15 +24,15 @@
         </activity>
 
         <activity
-            android:name=".activity.ActivityAuth"
+            android:name=".activity.ActivityRootAuth"
             android:exported="false" />
 
         <activity
-            android:name=".activity.ActivityShowFragment"
+            android:name=".activity.ActivityRootShowFragment"
             android:exported="false" />
 
         <activity
-            android:name=".activity.ActivityMain"
+            android:name=".activity.ActivityRootMain"
             android:exported="false"/>
 
         <receiver
